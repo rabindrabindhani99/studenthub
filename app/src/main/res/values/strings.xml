@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Student Hub</string>
+    <string name="write_here">Write here…</string>
+    <string name="enter_e_mail">Enter your E-mail</string>
+    <string name="enter_password">Enter your Password</string>
+    <string name="re_enter_password">Re-Enter your Password</string>
+    <string name="signup_textview">Sign up below to create a \nsecure account</string>
+    <string name="login_textview">Login</string>
+    <string name="signup_logo">signup logo</string>
+    <string name="sign_up">Sign up</string>
+    <string name="have_account">Already have an account? </string>
+    <string name="not_have_account">Dont have an account? </string>
+    <string name="login">Login</string>
+    <string name="sign_in_with_google">Sign in with Google</string>
+    <string name="otp_sent_textView">Otp Sent, Check your E-mail</string>
+    <string name="resend_otp">Resend OTP</string>
+    <string name="otp">Otp</string>
+    <string name="verify">Verify</string>
+    <string name="google_button">google button</string>
+    <string name="name">Name</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="email">E-mail</string>
+    <string name="sign_in_with_email">Sign in with E-mail</string>
+    <string name="sign_in_methods">Choose one of the Sign in method</string>
+    <string name="sign_in_with_phone">Sign in with Phone</string>
+    <string name="openDrawer">Open navigation drawer</string>
+    <string name="closeDrawer">Close navigation drawer</string>
+    <string name="support_string">Welcome to the support section for Student Hub. To contact our support team or for any further assistance.\n\nContact us:</string>
+    <string name="support_email_add">mcastudenthub@gmail.com</string>
+    <string name="your_name">Your name</string>
+    <string name="allow_permission">"Allow Permissions"</string>
+    <string name="send_otp">"Send Otp</string>
+    <string name="time_left">%s sec</string>
+</resources>

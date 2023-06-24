@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "751040460527",
+    "project_id": "mca-student-hub",
+    "storage_bucket": "mca-student-hub.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:751040460527:android:81afb830d3060d781c4d1a",
+        "android_client_info": {
+          "package_name": "com.rabindra.studenthub"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "751040460527-88ajkpbaabbj3mp53q4thi5hf2puk2h7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZA_2bW6zBy3ydE0jJ9mLRuBSdD50tdyE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "751040460527-88ajkpbaabbj3mp53q4thi5hf2puk2h7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

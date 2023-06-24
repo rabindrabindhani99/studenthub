@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginOptions">
+
+    <LinearLayout
+        android:id="@+id/baseline"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true"/>
+
+
+    <ImageView
+        android:id="@+id/signup_img"
+        android:layout_width="128dp"
+        android:layout_height="128dp"
+        android:src="@drawable/login_user"
+        android:contentDescription="@string/signup_logo"
+        android:layout_marginBottom="120dp"
+        android:layout_above="@id/signup_textView1"
+        android:layout_centerHorizontal="true"
+        />
+
+
+    <TextView
+        android:id="@+id/signup_textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/baseline"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:text="@string/sign_in_methods"
+        android:textSize="20sp"/>
+
+    <LinearLayout
+        android:id="@+id/signIn_with_email"
+        android:layout_width="220dp"
+        android:layout_height="45dp"
+        android:orientation="horizontal"
+        android:layout_below="@id/baseline"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:padding="7dp"
+        android:gravity="center"
+        android:elevation="10dp"
+        android:background="#FF0055">
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/email"
+            android:layout_gravity="center"
+            android:layout_marginEnd="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sign_in_with_email"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:layout_gravity="center"
+            android:textAlignment="center"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/signIn_with_google"
+        android:layout_width="220dp"
+        android:layout_height="45dp"
+        android:orientation="horizontal"
+        android:layout_below="@id/signIn_with_email"
+        android:layout_centerHorizontal="true"
+        android:padding="7dp"
+        android:gravity="center"
+        android:layout_marginTop="15dp"
+        android:elevation="10dp"
+        android:background="#FFFFFF">
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/google"
+            android:layout_gravity="center"
+            android:layout_marginEnd="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sign_in_with_google"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:layout_gravity="center"
+            android:textAlignment="center"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/signIn_with_phone"
+        android:layout_width="220dp"
+        android:layout_height="45dp"
+        android:orientation="horizontal"
+        android:layout_below="@id/signIn_with_google"
+        android:layout_centerHorizontal="true"
+        android:padding="7dp"
+        android:gravity="center"
+        android:layout_marginTop="15dp"
+        android:elevation="10dp"
+        android:background="#00BFFF">
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/phone"
+            android:layout_gravity="center"
+            android:layout_marginEnd="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sign_in_with_phone"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:layout_gravity="center"
+            android:textAlignment="center"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/termsAndCondition"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_marginBottom="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="14sp"
+            android:text="By proceeding, you acknowledge to our "/>
+        <TextView
+            android:id="@+id/terms"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textColor="@color/purple_700"
+            android:textSize="14sp"
+            android:text="Terms &amp; Condition"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

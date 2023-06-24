@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".VerifyEmail"
+    tools:ignore="HardCodedText">
+
+    <LinearLayout
+        android:id="@+id/LinearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+        android:background="@color/teal_200">
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Verify your E-mail"
+            android:textSize="25sp"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            android:textStyle="bold"
+            android:textAlignment="textStart"
+            />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="You have Successfully Registered your account. Verify yourself to proceed to the Login Page."
+        android:layout_below="@id/LinearLayout1"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:textStyle="bold"
+        android:textAlignment="textStart"
+        />
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your E-mail:"
+        android:layout_below="@id/textView2"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="15dp"
+        android:textStyle="bold"
+        android:textAlignment="textStart"
+        />
+
+
+
+        <TextView
+            android:id="@+id/email_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView3"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:paddingStart="20dp"
+            android:paddingEnd="15dp"
+            android:paddingBottom="15dp"
+            android:paddingTop="10dp"
+            android:textColor="@color/black"
+            android:gravity="center_vertical"
+            android:backgroundTint="#F1E9E9"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/edittext_background"
+            />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/verify_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="6dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/email_view"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:elevation="10dp"
+        android:text="Verify"
+        android:textStyle="bold"
+        android:backgroundTint="#42E1E0"
+        android:textAllCaps="false"
+        android:textSize="20sp"/>
+
+
+</RelativeLayout>

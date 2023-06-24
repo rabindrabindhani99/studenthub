@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="350dp"
+    android:layout_height="200dp"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:elevation="15dp"
+    android:fadingEdgeLength="8dp"
+    android:gravity="center"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/app_name_in_support"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="@string/app_name"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/support_details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/app_name_in_support"
+        android:layout_marginTop="8dp"
+        android:gravity="fill_horizontal"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:text="@string/support_string"
+        />
+    <TextView
+        android:id="@+id/support_email"
+        android:layout_below="@id/support_details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="@string/support_email_add"
+        android:textIsSelectable="true" />
+</RelativeLayout>
